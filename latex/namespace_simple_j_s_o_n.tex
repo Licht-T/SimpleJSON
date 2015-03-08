@@ -1,0 +1,103 @@
+\hypertarget{namespace_simple_j_s_o_n}{\section{Simple\+J\+S\+O\+N Namespace Reference}
+\label{namespace_simple_j_s_o_n}\index{Simple\+J\+S\+O\+N@{Simple\+J\+S\+O\+N}}
+}
+
+
+\hyperlink{namespace_simple_j_s_o_n}{Simple\+J\+S\+O\+N} namespace.  
+
+
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+struct \hyperlink{struct_simple_j_s_o_n_1_1json__null}{json\+\_\+null}
+\item 
+class \hyperlink{class_simple_j_s_o_n_1_1_j_s_o_n_element}{J\+S\+O\+N\+Element}
+\begin{DoxyCompactList}\small\item\em J\+S\+O\+N element class.~\newline
+ It can contain any type/class object. \end{DoxyCompactList}\item 
+class \hyperlink{class_simple_j_s_o_n_1_1_j_s_o_n_stream}{J\+S\+O\+N\+Stream}
+\begin{DoxyCompactList}\small\item\em Write J\+S\+O\+N into file as array. \end{DoxyCompactList}\item 
+struct \hyperlink{struct_simple_j_s_o_n_1_1type_info}{type\+Info}
+\end{DoxyCompactItemize}
+\subsection*{Typedefs}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{namespace_simple_j_s_o_n_ab2cec6f8e5b814f244db801d29975818}{typedef void $\ast$ {\bfseries type\+\_\+id}}\label{namespace_simple_j_s_o_n_ab2cec6f8e5b814f244db801d29975818}
+
+\item 
+\hypertarget{namespace_simple_j_s_o_n_af08971ebbb6e72577450a7b8bde7f143}{using \hyperlink{namespace_simple_j_s_o_n_af08971ebbb6e72577450a7b8bde7f143}{J\+S\+O\+N\+Object} = std\+::map$<$ std\+::string, \hyperlink{class_simple_j_s_o_n_1_1_j_s_o_n_element}{J\+S\+O\+N\+Element} $>$}\label{namespace_simple_j_s_o_n_af08971ebbb6e72577450a7b8bde7f143}
+
+\begin{DoxyCompactList}\small\item\em J\+S\+O\+N object type. \end{DoxyCompactList}\item 
+\hypertarget{namespace_simple_j_s_o_n_ad092eb41ea5d146a50606e14e4611c6b}{using \hyperlink{namespace_simple_j_s_o_n_ad092eb41ea5d146a50606e14e4611c6b}{J\+S\+O\+N\+Array} = std\+::vector$<$ \hyperlink{class_simple_j_s_o_n_1_1_j_s_o_n_element}{J\+S\+O\+N\+Element} $>$}\label{namespace_simple_j_s_o_n_ad092eb41ea5d146a50606e14e4611c6b}
+
+\begin{DoxyCompactList}\small\item\em J\+S\+O\+N array type. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{namespace_simple_j_s_o_n_aff00ccbee484229810cab53aa25a674a}{{\footnotesize template$<$class T $>$ }\\constexpr type\+\_\+id {\bfseries get\+\_\+type\+\_\+id} ()}\label{namespace_simple_j_s_o_n_aff00ccbee484229810cab53aa25a674a}
+
+\item 
+{\footnotesize template$<$typename T $>$ }\\std\+::string \hyperlink{namespace_simple_j_s_o_n_a8cd3ef0c756ad0c7326c478e375a33d8}{to\+\_\+string} (const T \&t)
+\begin{DoxyCompactList}\small\item\em Output J\+S\+O\+N string of type T.~\newline
+ This is the forward declaration template.~\newline
+ Specialize this template as you want.~\newline
+ \end{DoxyCompactList}\item 
+\hypertarget{namespace_simple_j_s_o_n_a2e8ae1d00af3315d6fda00d40b70bc3e}{const std\+::string \& {\bfseries to\+\_\+string} (const struct \hyperlink{struct_simple_j_s_o_n_1_1json__null}{json\+\_\+null} \&n)}\label{namespace_simple_j_s_o_n_a2e8ae1d00af3315d6fda00d40b70bc3e}
+
+\item 
+\hypertarget{namespace_simple_j_s_o_n_abeeb0badab36a433faf5ed945fde5888}{const std\+::string \& {\bfseries to\+\_\+string} (const bool \&x)}\label{namespace_simple_j_s_o_n_abeeb0badab36a433faf5ed945fde5888}
+
+\item 
+\hypertarget{namespace_simple_j_s_o_n_ad03445df6771a5c6c44599ac319aece1}{{\footnotesize template$<$typename T $>$ }\\std\+::string {\bfseries to\+\_\+string} (const std\+::vector$<$ T $>$ \&vec)}\label{namespace_simple_j_s_o_n_ad03445df6771a5c6c44599ac319aece1}
+
+\item 
+\hypertarget{namespace_simple_j_s_o_n_abc6161e4721d5e45dadc3090d302eeab}{{\footnotesize template$<$typename T $>$ }\\std\+::string {\bfseries to\+\_\+string} (const std\+::map$<$ std\+::string, T $>$ \&map)}\label{namespace_simple_j_s_o_n_abc6161e4721d5e45dadc3090d302eeab}
+
+\item 
+\hypertarget{namespace_simple_j_s_o_n_ae5939411a73e189c0994306995e1f3d9}{std\+::ostream \& {\bfseries operator$<$$<$} (std\+::ostream \&os, const \hyperlink{class_simple_j_s_o_n_1_1_j_s_o_n_element}{J\+S\+O\+N\+Element} \&x)}\label{namespace_simple_j_s_o_n_ae5939411a73e189c0994306995e1f3d9}
+
+\item 
+\hypertarget{namespace_simple_j_s_o_n_a138f9d9251ade45a501b0d8010afa3aa}{std\+::ostream \& {\bfseries operator$<$$<$} (std\+::ostream \&os, const \hyperlink{namespace_simple_j_s_o_n_af08971ebbb6e72577450a7b8bde7f143}{J\+S\+O\+N\+Object} \&x)}\label{namespace_simple_j_s_o_n_a138f9d9251ade45a501b0d8010afa3aa}
+
+\item 
+\hypertarget{namespace_simple_j_s_o_n_aec09469861450d21a61254c0ec660b75}{std\+::ostream \& {\bfseries operator$<$$<$} (std\+::ostream \&os, const \hyperlink{namespace_simple_j_s_o_n_ad092eb41ea5d146a50606e14e4611c6b}{J\+S\+O\+N\+Array} \&x)}\label{namespace_simple_j_s_o_n_aec09469861450d21a61254c0ec660b75}
+
+\end{DoxyCompactItemize}
+\subsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{namespace_simple_j_s_o_n_a4831803b4944372051076380197f8a61}{struct \hyperlink{struct_simple_j_s_o_n_1_1json__null}{json\+\_\+null} \hyperlink{namespace_simple_j_s_o_n_a4831803b4944372051076380197f8a61}{null}}\label{namespace_simple_j_s_o_n_a4831803b4944372051076380197f8a61}
+
+\begin{DoxyCompactList}\small\item\em J\+S\+O\+N null. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\hyperlink{namespace_simple_j_s_o_n}{Simple\+J\+S\+O\+N} namespace. 
+
+\subsection{Function Documentation}
+\hypertarget{namespace_simple_j_s_o_n_a8cd3ef0c756ad0c7326c478e375a33d8}{\index{Simple\+J\+S\+O\+N@{Simple\+J\+S\+O\+N}!to\+\_\+string@{to\+\_\+string}}
+\index{to\+\_\+string@{to\+\_\+string}!Simple\+J\+S\+O\+N@{Simple\+J\+S\+O\+N}}
+\subsubsection[{to\+\_\+string}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename T $>$ std\+::string Simple\+J\+S\+O\+N\+::to\+\_\+string (
+\begin{DoxyParamCaption}
+\item[{const T \&}]{t}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{namespace_simple_j_s_o_n_a8cd3ef0c756ad0c7326c478e375a33d8}
+
+
+Output J\+S\+O\+N string of type T.~\newline
+ This is the forward declaration template.~\newline
+ Specialize this template as you want.~\newline
+ 
+
+
+\begin{DoxyTemplParams}{Template Parameters}
+{\em T} & Type. \\
+\hline
+\end{DoxyTemplParams}
+
+\begin{DoxyParams}{Parameters}
+{\em t} & Element.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+J\+S\+O\+N string. 
+\end{DoxyReturn}

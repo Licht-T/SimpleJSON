@@ -1,0 +1,125 @@
+\hypertarget{class_simple_j_s_o_n_1_1_j_s_o_n_element}{\section{Simple\+J\+S\+O\+N\+:\+:J\+S\+O\+N\+Element Class Reference}
+\label{class_simple_j_s_o_n_1_1_j_s_o_n_element}\index{Simple\+J\+S\+O\+N\+::\+J\+S\+O\+N\+Element@{Simple\+J\+S\+O\+N\+::\+J\+S\+O\+N\+Element}}
+}
+
+
+J\+S\+O\+N element class.~\newline
+ It can contain any type/class object.  
+
+
+
+
+{\ttfamily \#include $<$simplejson.\+hpp$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_simple_j_s_o_n_1_1_j_s_o_n_element_ab64359a2a84641d8fb0dda26c67b0edb}{{\footnotesize template$<$typename T $>$ }\\{\bfseries J\+S\+O\+N\+Element} (const T \&data)}\label{class_simple_j_s_o_n_1_1_j_s_o_n_element_ab64359a2a84641d8fb0dda26c67b0edb}
+
+\item 
+\hypertarget{class_simple_j_s_o_n_1_1_j_s_o_n_element_a35a3c6d37faf9036c788cde9ecea9a1e}{{\bfseries J\+S\+O\+N\+Element} (const std\+::initializer\+\_\+list$<$ std\+::pair$<$ const std\+::string, \hyperlink{class_simple_j_s_o_n_1_1_j_s_o_n_element}{J\+S\+O\+N\+Element} $>$$>$ \&data)}\label{class_simple_j_s_o_n_1_1_j_s_o_n_element_a35a3c6d37faf9036c788cde9ecea9a1e}
+
+\item 
+\hypertarget{class_simple_j_s_o_n_1_1_j_s_o_n_element_a84b0a17c4d745cd51ac1ecccc00fd8c5}{{\bfseries J\+S\+O\+N\+Element} (const \hyperlink{class_simple_j_s_o_n_1_1_j_s_o_n_element}{J\+S\+O\+N\+Element} \&other)}\label{class_simple_j_s_o_n_1_1_j_s_o_n_element_a84b0a17c4d745cd51ac1ecccc00fd8c5}
+
+\item 
+\hypertarget{class_simple_j_s_o_n_1_1_j_s_o_n_element_aa802f573e155c7ca8d208880f3891dc5}{\hyperlink{class_simple_j_s_o_n_1_1_j_s_o_n_element}{J\+S\+O\+N\+Element} \& {\bfseries operator=} (const \hyperlink{class_simple_j_s_o_n_1_1_j_s_o_n_element}{J\+S\+O\+N\+Element} \&rhs)}\label{class_simple_j_s_o_n_1_1_j_s_o_n_element_aa802f573e155c7ca8d208880f3891dc5}
+
+\item 
+\hypertarget{class_simple_j_s_o_n_1_1_j_s_o_n_element_ac76f86322bba79ec08e649c8c6304c8f}{{\footnotesize template$<$typename T $>$ }\\\hyperlink{class_simple_j_s_o_n_1_1_j_s_o_n_element}{J\+S\+O\+N\+Element} \& {\bfseries operator=} (const T \&rhs)}\label{class_simple_j_s_o_n_1_1_j_s_o_n_element_ac76f86322bba79ec08e649c8c6304c8f}
+
+\item 
+\hypertarget{class_simple_j_s_o_n_1_1_j_s_o_n_element_ab7e6a3fcfc053f52cd9aff631047b960}{std\+::string {\bfseries to\+String} (void) const }\label{class_simple_j_s_o_n_1_1_j_s_o_n_element_ab7e6a3fcfc053f52cd9aff631047b960}
+
+\item 
+\hyperlink{class_simple_j_s_o_n_1_1_j_s_o_n_element}{J\+S\+O\+N\+Element} \& \hyperlink{class_simple_j_s_o_n_1_1_j_s_o_n_element_a0d228460082d135125effef76fd83d32}{operator\mbox{[}$\,$\mbox{]}} (const std\+::string \&k)
+\begin{DoxyCompactList}\small\item\em Get a json element which key is k on J\+S\+O\+N object. \end{DoxyCompactList}\item 
+std\+::map$<$ std\+::string, \\*
+\hyperlink{class_simple_j_s_o_n_1_1_j_s_o_n_element}{J\+S\+O\+N\+Element} $>$ $\ast$ \hyperlink{class_simple_j_s_o_n_1_1_j_s_o_n_element_a42a30b2bf840d0be2bede6ae1c4e8747}{get\+Raw\+Object} ()
+\begin{DoxyCompactList}\small\item\em Get a J\+S\+O\+N object as S\+T\+L map. \end{DoxyCompactList}\item 
+\hyperlink{class_simple_j_s_o_n_1_1_j_s_o_n_element}{J\+S\+O\+N\+Element} \& \hyperlink{class_simple_j_s_o_n_1_1_j_s_o_n_element_a57970ea8a02b1c561f1f25935abb7724}{operator\mbox{[}$\,$\mbox{]}} (const int \&i)
+\begin{DoxyCompactList}\small\item\em Get a json element at index i on json array. \end{DoxyCompactList}\item 
+std\+::vector$<$ \hyperlink{class_simple_j_s_o_n_1_1_j_s_o_n_element}{J\+S\+O\+N\+Element} $>$ $\ast$ \hyperlink{class_simple_j_s_o_n_1_1_j_s_o_n_element_a6545f7509c12060ea091d9112e9b2af8}{get\+Raw\+Array} ()
+\begin{DoxyCompactList}\small\item\em Get a J\+S\+O\+N array as S\+T\+L vector. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+J\+S\+O\+N element class.~\newline
+ It can contain any type/class object. 
+
+\subsection{Member Function Documentation}
+\hypertarget{class_simple_j_s_o_n_1_1_j_s_o_n_element_a6545f7509c12060ea091d9112e9b2af8}{\index{Simple\+J\+S\+O\+N\+::\+J\+S\+O\+N\+Element@{Simple\+J\+S\+O\+N\+::\+J\+S\+O\+N\+Element}!get\+Raw\+Array@{get\+Raw\+Array}}
+\index{get\+Raw\+Array@{get\+Raw\+Array}!Simple\+J\+S\+O\+N\+::\+J\+S\+O\+N\+Element@{Simple\+J\+S\+O\+N\+::\+J\+S\+O\+N\+Element}}
+\subsubsection[{get\+Raw\+Array}]{\setlength{\rightskip}{0pt plus 5cm}std\+::vector$<${\bf J\+S\+O\+N\+Element}$>$$\ast$ Simple\+J\+S\+O\+N\+::\+J\+S\+O\+N\+Element\+::get\+Raw\+Array (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_simple_j_s_o_n_1_1_j_s_o_n_element_a6545f7509c12060ea091d9112e9b2af8}
+
+
+Get a J\+S\+O\+N array as S\+T\+L vector. 
+
+\begin{DoxyReturn}{Returns}
+Reference of a J\+S\+O\+N array as S\+T\+L vector if this contains a J\+S\+O\+N array.~\newline
+ If not a J\+S\+O\+N array, the program exits with a failure status. 
+\end{DoxyReturn}
+\hypertarget{class_simple_j_s_o_n_1_1_j_s_o_n_element_a42a30b2bf840d0be2bede6ae1c4e8747}{\index{Simple\+J\+S\+O\+N\+::\+J\+S\+O\+N\+Element@{Simple\+J\+S\+O\+N\+::\+J\+S\+O\+N\+Element}!get\+Raw\+Object@{get\+Raw\+Object}}
+\index{get\+Raw\+Object@{get\+Raw\+Object}!Simple\+J\+S\+O\+N\+::\+J\+S\+O\+N\+Element@{Simple\+J\+S\+O\+N\+::\+J\+S\+O\+N\+Element}}
+\subsubsection[{get\+Raw\+Object}]{\setlength{\rightskip}{0pt plus 5cm}std\+::map$<$std\+::string, {\bf J\+S\+O\+N\+Element}$>$$\ast$ Simple\+J\+S\+O\+N\+::\+J\+S\+O\+N\+Element\+::get\+Raw\+Object (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_simple_j_s_o_n_1_1_j_s_o_n_element_a42a30b2bf840d0be2bede6ae1c4e8747}
+
+
+Get a J\+S\+O\+N object as S\+T\+L map. 
+
+\begin{DoxyReturn}{Returns}
+Reference of a J\+S\+O\+N object as S\+T\+L map if this contains a J\+S\+O\+N object.~\newline
+ If not a J\+S\+O\+N object, the program exits with a failure status. 
+\end{DoxyReturn}
+\hypertarget{class_simple_j_s_o_n_1_1_j_s_o_n_element_a0d228460082d135125effef76fd83d32}{\index{Simple\+J\+S\+O\+N\+::\+J\+S\+O\+N\+Element@{Simple\+J\+S\+O\+N\+::\+J\+S\+O\+N\+Element}!operator\mbox{[}$\,$\mbox{]}@{operator[]}}
+\index{operator\mbox{[}$\,$\mbox{]}@{operator[]}!Simple\+J\+S\+O\+N\+::\+J\+S\+O\+N\+Element@{Simple\+J\+S\+O\+N\+::\+J\+S\+O\+N\+Element}}
+\subsubsection[{operator[]}]{\setlength{\rightskip}{0pt plus 5cm}{\bf J\+S\+O\+N\+Element}\& Simple\+J\+S\+O\+N\+::\+J\+S\+O\+N\+Element\+::operator\mbox{[}$\,$\mbox{]} (
+\begin{DoxyParamCaption}
+\item[{const std\+::string \&}]{k}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_simple_j_s_o_n_1_1_j_s_o_n_element_a0d228460082d135125effef76fd83d32}
+
+
+Get a json element which key is k on J\+S\+O\+N object. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em k} & Key of element.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Reference of a J\+S\+O\+N element which key is k if this contains a J\+S\+O\+N object.~\newline
+ If not a J\+S\+O\+N object, the program exits with a failure status. 
+\end{DoxyReturn}
+\hypertarget{class_simple_j_s_o_n_1_1_j_s_o_n_element_a57970ea8a02b1c561f1f25935abb7724}{\index{Simple\+J\+S\+O\+N\+::\+J\+S\+O\+N\+Element@{Simple\+J\+S\+O\+N\+::\+J\+S\+O\+N\+Element}!operator\mbox{[}$\,$\mbox{]}@{operator[]}}
+\index{operator\mbox{[}$\,$\mbox{]}@{operator[]}!Simple\+J\+S\+O\+N\+::\+J\+S\+O\+N\+Element@{Simple\+J\+S\+O\+N\+::\+J\+S\+O\+N\+Element}}
+\subsubsection[{operator[]}]{\setlength{\rightskip}{0pt plus 5cm}{\bf J\+S\+O\+N\+Element}\& Simple\+J\+S\+O\+N\+::\+J\+S\+O\+N\+Element\+::operator\mbox{[}$\,$\mbox{]} (
+\begin{DoxyParamCaption}
+\item[{const int \&}]{i}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_simple_j_s_o_n_1_1_j_s_o_n_element_a57970ea8a02b1c561f1f25935abb7724}
+
+
+Get a json element at index i on json array. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em i} & Index.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Reference of a J\+S\+O\+N element at index i if this contains a J\+S\+O\+N array.~\newline
+ If not a J\+S\+O\+N array, the program exits with a failure status. 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+simplejson.\+hpp\end{DoxyCompactItemize}
